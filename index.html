@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Yoshiki Mitsui</title>
-    <link href="css/design.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
     <style media="screen">
       .pub li {
         margin: 10px 0px;
       }
-      dt {
+      /*dt {
         margin-top: 10px;
       }
       dd {
         margin-bottom: 10px;
-      }
-      .author {
+      }*/
+      .ymitsui {
         font-weight: bold;
         text-decoration: underline;
       }
@@ -24,6 +28,28 @@
       }
       .award {
         color: red;
+      }
+      .jumbotron {
+        padding-top: 150px;
+        padding-bottom: 50px;
+        color: #ccc;
+      }
+      .jumbotron h1 {
+        color: #fff;
+        font-weight: bolder;
+      }
+      .jumbotron a {
+        color: #83b1e4;
+      }
+      h2 {
+        padding-top: 70px;
+        margin-top: -65px;
+      }
+      h3 {
+        margin-top: 20px;
+      }
+      hr {
+        margin-top: 30px;
       }
     </style>
     <script>
@@ -37,116 +63,153 @@
     </script>
   </head>
   <body>
-    <h1>Yoshiki Mitsui [三井 祥幹]</h1>
-    <p>
-      Member of <a href="http://www.sp.ipc.i.u-tokyo.ac.jp/en/" target="_blank">Saruwatari Lab., The University of Tokyo</a> （<a href="http://www.sp.ipc.i.u-tokyo.ac.jp" target="_blank">東京大学 猿渡研究室</a>） <br>
-      Master's student in <a href="http://www.i.u-tokyo.ac.jp/edu/course/ipc/index_e.shtml" target="_blank">Department of Information Physics &amp; Computing</a>, <a href="http://www.i.u-tokyo.ac.jp/index_e.shtml" target="_blank">Graduate school of Information Science and Technology</a>, <a href="http://www.u-tokyo.ac.jp/en/index.html" target="_blank">The University of Tokyo</a>. <br>
-      （<a href="http://www.u-tokyo.ac.jp/" target="_blank">東京大学</a> <a href="http://www.i.u-tokyo.ac.jp/" target="_blank">大学院情報理工学系研究科</a> <a href="http://www.i.u-tokyo.ac.jp/edu/course/ipc/" target="_blank">システム情報学専攻</a> 修士課程） <br>
-      Email: yoshiki_mitsui [(at)] ipc.i.u-tokyo.ac.jp
-    </p>
+    <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4"> -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="">Yoshiki Mitsui</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <hr>
+    <div class="jumbotron bg-dark">
+      <div class="container">
+        <h1 class="display-4">Yoshiki Mitsui</h1>
+        <p>
+          Member of <a href="http://www.sp.ipc.i.u-tokyo.ac.jp/en/" target="_blank">Saruwatari Lab., The University of Tokyo</a> （<a href="http://www.sp.ipc.i.u-tokyo.ac.jp" target="_blank">東京大学 猿渡研究室</a>） <br>
+          Master's student in <a href="http://www.i.u-tokyo.ac.jp/edu/course/ipc/index_e.shtml" target="_blank">Department of Information Physics &amp; Computing</a>, <a href="http://www.i.u-tokyo.ac.jp/index_e.shtml" target="_blank">Graduate school of Information Science and Technology</a>, <a href="http://www.u-tokyo.ac.jp/en/index.html" target="_blank">The University of Tokyo</a>. <br>
+          （<a href="http://www.u-tokyo.ac.jp/" target="_blank">東京大学</a> <a href="http://www.i.u-tokyo.ac.jp/" target="_blank">大学院情報理工学系研究科</a> <a href="http://www.i.u-tokyo.ac.jp/edu/course/ipc/" target="_blank">システム情報学専攻</a> 修士課程） <br>
+          Email: yoshiki_mitsui [(at)] ipc.i.u-tokyo.ac.jp
+        </p>
+      </div>
+    </div>
 
-    <h2>Publications</h2>
+    <div class="container">
+      <h2 id="publications">Publications</h2>
 
-    <h3>Peer-Reviewed International Conference Papers [査読付き国際会議]</h3>
-    <ol class="pub">
-      <li>
-        <span class="author">Yoshiki Mitsui</span>, Daichi Kitamura, Shinnosuke Takamichi, Nobutaka Ono, and Hiroshi Saruwatari,<br>
-        <span class="title">"Blind source separation based on independent low-rank matrix analysis with sparse regularization for time-series activity,"</span><br>
-        The 42nd IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2017), pp. 21-25, New Orleans, U.S.A., March 2017. <span class="award">[Student Paper Contest Finalist]</span>
-      </li>
-      <li>
-        Shinichi Mogami, Daichi Kitamura, <span class="author">Yoshiki Mitsui</span>, Norihiro Takamune, Hiroshi Saruwatari, and Nobutaka Ono,<br>
-        <span class="title">"Independet low-rank matrix analysis based on complex Student's <i>t</i>-distribution for blind audio source separation,"</span><br>
-        The 27th IEEE International Workshop on Machine Learning for Signal Processing (MLSP 2017), pp. xx-xx, Tokyo, Japan, September 2017. <span class="award">[to appear]</span><br>
-        <a href="https://arxiv.org/abs/1708.04795" target="_blank">[arXiv Preprint]</a>
-      </li>
-    </ol>
+      <h3>Peer-Reviewed International Conference Papers [査読付き国際会議]</h3>
+      <ol class="pub">
+        <li>
+          <span class="ymitsui">Yoshiki Mitsui</span>, Daichi Kitamura, Shinnosuke Takamichi, Nobutaka Ono, and Hiroshi Saruwatari,<br>
+          <span class="title">"Blind source separation based on independent low-rank matrix analysis with sparse regularization for time-series activity,"</span><br>
+          The 42nd IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2017), pp. 21-25, New Orleans, U.S.A., March 2017. <span class="award">[Student Paper Contest Finalist]</span>
+        </li>
+        <li>
+          Shinichi Mogami, Daichi Kitamura, <span class="ymitsui">Yoshiki Mitsui</span>, Norihiro Takamune, Hiroshi Saruwatari, and Nobutaka Ono,<br>
+          <span class="title">"Independet low-rank matrix analysis based on complex Student's <i>t</i>-distribution for blind audio source separation,"</span><br>
+          The 27th IEEE International Workshop on Machine Learning for Signal Processing (MLSP 2017), pp. xx-xx, Tokyo, Japan, September 2017. (accepted)<br>
+          <a href="https://arxiv.org/abs/1708.04795" target="_blank">[arXiv Preprint]</a>
+        </li>
+      </ol>
 
-    <h3>Domestic Conference Papers [国内会議]</h3>
-    <ol class="pub">
-      <li>
-        <span class="author">三井祥幹</span>, 北村大地, 高宗典玄, 猿渡洋, 高橋祐, 近藤多伸,<br>
-        <span class="title">"パラメトリック補助関数法に基づく独立低ランク行列分析を用いたブラインド音源分離,"</span><br>
-        日本音響学会 2017年秋季研究発表会講演論文集, 3-12-13, pp. xxx-xxx, Ehime, September 2017. (to appear)
-      </li>
-      <li>
-        <span class="author">三井祥幹</span>, 溝口聡, 猿渡洋, 越智景子, 北村大地, 小野順貴, 石村大, 前成美, 高草木萌, 松井裕太郎, 山岡洸瑛, 牧野昭二,<br>
-        <span class="title">"柔軟索状ロボットにおける独立低ランク行列分析と統計的音声強調に基づく高品質ブラインド音源分離の開発,"</span><br>
-        日本機械学会 ロボティクス・メカトロニクス講演会 (Robomech 2017), 1P2-P04, Fukushima, May 2017.
-      </li>
-      <li>
-        <span class="author">三井祥幹</span>, 溝口聡, 猿渡洋, 越智景子, 北村大地, 小野順貴, 石村大, 前成美, 高草木萌, 松井裕太郎, 山岡洸瑛, 牧野昭二,<br>
-        <span class="title">"独立低ランク行列分析と統計的音声強調を用いた柔軟索状ロボットにおけるブラインド音源分離システムの開発,"</span><br>
-        日本音響学会 2017年春季研究発表会講演論文集, 1-P-3, pp. 517-518, Kanagawa, March 2017.
-      </li>
-      <li>
-        <span class="author">三井祥幹</span>, 北村大地, 高道慎之介, 猿渡洋,<br>
-        <span class="title">"スパース時系列正則化に基づく独立低ランク行列分析を用いたブラインド音源分離,"</span><br>
-        日本音響学会 2016年秋季研究発表会講演論文集, 1-7-3, pp. 325–328, Toyama, September 2016.
-      </li>
-      <li>
-        <span class="author">三井祥幹</span>, 田中宏治, 井上碩, 牧野泰才, 篠田裕之,<br>
-        <span class="title">"空中超音波による物体の移動制御,"</span><br>
-        日本機械学会 ロボティクス・メカトロニクス講演会 (Robomech 2016), 1A2-14b3, Kanagawa, June 2016.
-      </li>
-      <li>
-        最上伸一, 北村大地, 高宗典玄, <span class="author">三井祥幹</span>, 猿渡洋, 小野順貴, 高橋祐, 近藤多伸,<br>
-        <span class="title">"複素 Student's <i>t</i> 分布に基づく独立低ランク行列分析の実験的評価,"</span><br>
-        日本音響学会 2017年秋季研究発表会講演論文集, 3-12-12, pp. xxx-xxx, Ehime, September 2017. (to appear)
-      </li>
-      <li>
-        小池正憲, <span class="author">三井祥幹</span>, 奈良高明, 安藤繁, 後藤雄治, 泉政明,<br>
-        <span class="title">"留数定理を用いた燃料電池の欠陥部の位置推定,"</span><br>
-        第32回センシングフォーラム 計測部門大会, 1A1-5, Osaka, September 2015.
-      </li>
-    </ol>
+      <h3>Domestic Conference Papers [国内会議]</h3>
+      <ol class="pub">
+        <li>
+          <span class="ymitsui">三井祥幹</span>, 北村大地, 高宗典玄, 猿渡洋, 高橋祐, 近藤多伸,<br>
+          <span class="title">"パラメトリック補助関数法に基づく独立低ランク行列分析を用いたブラインド音源分離,"</span><br>
+          日本音響学会 2017年秋季研究発表会講演論文集, 3-12-13, pp. xxx-xxx, Ehime, September 2017. (to appear)
+        </li>
+        <li>
+          <span class="ymitsui">三井祥幹</span>, 溝口聡, 猿渡洋, 越智景子, 北村大地, 小野順貴, 石村大, 前成美, 高草木萌, 松井裕太郎, 山岡洸瑛, 牧野昭二,<br>
+          <span class="title">"柔軟索状ロボットにおける独立低ランク行列分析と統計的音声強調に基づく高品質ブラインド音源分離の開発,"</span><br>
+          日本機械学会 ロボティクス・メカトロニクス講演会 (Robomech 2017), 1P2-P04, Fukushima, May 2017.
+        </li>
+        <li>
+          <span class="ymitsui">三井祥幹</span>, 溝口聡, 猿渡洋, 越智景子, 北村大地, 小野順貴, 石村大, 前成美, 高草木萌, 松井裕太郎, 山岡洸瑛, 牧野昭二,<br>
+          <span class="title">"独立低ランク行列分析と統計的音声強調を用いた柔軟索状ロボットにおけるブラインド音源分離システムの開発,"</span><br>
+          日本音響学会 2017年春季研究発表会講演論文集, 1-P-3, pp. 517-518, Kanagawa, March 2017.
+        </li>
+        <li>
+          <span class="ymitsui">三井祥幹</span>, 北村大地, 高道慎之介, 猿渡洋,<br>
+          <span class="title">"スパース時系列正則化に基づく独立低ランク行列分析を用いたブラインド音源分離,"</span><br>
+          日本音響学会 2016年秋季研究発表会講演論文集, 1-7-3, pp. 325–328, Toyama, September 2016.
+        </li>
+        <li>
+          <span class="ymitsui">三井祥幹</span>, 田中宏治, 井上碩, 牧野泰才, 篠田裕之,<br>
+          <span class="title">"空中超音波による物体の移動制御,"</span><br>
+          日本機械学会 ロボティクス・メカトロニクス講演会 (Robomech 2016), 1A2-14b3, Kanagawa, June 2016.
+        </li>
+        <li>
+          最上伸一, 北村大地, 高宗典玄, <span class="ymitsui">三井祥幹</span>, 猿渡洋, 小野順貴, 高橋祐, 近藤多伸,<br>
+          <span class="title">"複素 Student's <i>t</i> 分布に基づく独立低ランク行列分析の実験的評価,"</span><br>
+          日本音響学会 2017年秋季研究発表会講演論文集, 3-12-12, pp. xxx-xxx, Ehime, September 2017. (to appear)
+        </li>
+        <li>
+          小池正憲, <span class="ymitsui">三井祥幹</span>, 奈良高明, 安藤繁, 後藤雄治, 泉政明,<br>
+          <span class="title">"留数定理を用いた燃料電池の欠陥部の位置推定,"</span><br>
+          第32回センシングフォーラム 計測部門大会, 1A1-5, Osaka, September 2015.
+        </li>
+      </ol>
 
-    <h3>Technical Reports [研究会]</h3>
-    <ol class="pub">
-      <li>
-        <span class="author">三井祥幹</span>, 北村大地, 高道慎之介, 小野順貴, 猿渡洋,<br>
-        <span class="title">"スパース時系列正則化付き独立低ランク行列分析における効率的な解法の検討,"</span><br>
-        電子情報通信学会技術報告, vol. 116, no. 420, EA2016-72, pp. 25-30, Kyoto, January 2017.
-      </li>
-      <li>
-        最上伸一, 北村大地, 高宗典玄, <span class="author">三井祥幹</span>, 猿渡洋, 小野順貴, 高橋祐, 近藤多伸, <br>
-        <span class="title">"複素 Student's <i>t</i> 分布に基づく独立低ランク行列分析,"</span><br>
-        電子情報通信学会技術報告, vol. 117, no. 138, EA2017-23, pp. 131-136, Hokkaido, July 2017.
-      </li>
-    </ol>
+      <h3>Technical Reports [研究会]</h3>
+      <ol class="pub">
+        <li>
+          <span class="ymitsui">三井祥幹</span>, 北村大地, 高道慎之介, 小野順貴, 猿渡洋,<br>
+          <span class="title">"スパース時系列正則化付き独立低ランク行列分析における効率的な解法の検討,"</span><br>
+          電子情報通信学会技術報告, vol. 116, no. 420, EA2016-72, pp. 25-30, Kyoto, January 2017.
+        </li>
+        <li>
+          最上伸一, 北村大地, 高宗典玄, <span class="ymitsui">三井祥幹</span>, 猿渡洋, 小野順貴, 高橋祐, 近藤多伸, <br>
+          <span class="title">"複素 Student's <i>t</i> 分布に基づく独立低ランク行列分析,"</span><br>
+          電子情報通信学会技術報告, vol. 117, no. 138, EA2017-23, pp. 131-136, Hokkaido, July 2017.
+        </li>
+      </ol>
 
-    <hr>
+      <hr>
 
-    <h2>Interests</h2>
+      <h2 id="interests">Interests</h2>
 
-    <ul>
-      <li>Signal processing</li>
-      <li>Blind source separation</li>
-      <li>Nonnegative matrix factorization (NMF)</li>
-      <li>Independent low-rank matrix analysis (ILRMA)</li>
-      <li>Machine learning</li>
-      <li>Software engineering</li>
-    </ul>
+      <ul>
+        <li>Signal processing</li>
+        <li>Blind source separation</li>
+        <li>Nonnegative matrix factorization (NMF)</li>
+        <li>Independent low-rank matrix analysis (ILRMA)</li>
+        <li>Machine learning</li>
+        <li>Software engineering</li>
+      </ul>
 
-    <hr>
+      <hr>
 
-    <h2>Education</h2>
+      <h2 id="educations">Education</h2>
 
-    <dl>
-      <dt>Apr. 2016 - </dt>
-      <dd>
-        Master's student, <a href="http://www.i.u-tokyo.ac.jp/edu/course/ipc/index_e.shtml" target="_blank">Department of Information Physics &amp; Computing</a>, <a href="http://www.i.u-tokyo.ac.jp/index_e.shtml" target="_blank">Graduate school of Information Science and Technology</a>, <a href="http://www.u-tokyo.ac.jp/en/index.html" target="_blank">The University of Tokyo</a>. <br>
-        <a href="http://www.u-tokyo.ac.jp/" target="_blank">東京大学</a> <a href="http://www.i.u-tokyo.ac.jp/" target="_blank">大学院情報理工学系研究科</a> <a href="http://www.i.u-tokyo.ac.jp/edu/course/ipc/" target="_blank">システム情報学専攻</a> 修士課程
-      </dd>
-      <dt>Apr. 2012 - Mar. 2016</dt>
-      <dd>
-        Bachelor's student, <a href="http://www.keisu.t.u-tokyo.ac.jp/" target="_blank">Department of Mathematical Engineering and Information Physics</a>, <a href="http://www.t.u-tokyo.ac.jp/soee/index.html" target="_blank">School of Engineering</a>, <a href="http://www.u-tokyo.ac.jp/" target="_blank">The University of Tokyo</a>. <br>
-        <a href="http://www.u-tokyo.ac.jp/" target="_blank">東京大学</a> <a href="http://www.t.u-tokyo.ac.jp/" target="_blank">工学部</a> <a href="http://www.keisu.t.u-tokyo.ac.jp/" target="_blank">計数工学科</a> システム情報工学コース
-      </dd>
-    </dl>
+      <dl>
+        <dt>Apr. 2016 - </dt>
+        <dd>
+          Master's student, <a href="http://www.i.u-tokyo.ac.jp/edu/course/ipc/index_e.shtml" target="_blank">Department of Information Physics &amp; Computing</a>, <a href="http://www.i.u-tokyo.ac.jp/index_e.shtml" target="_blank">Graduate school of Information Science and Technology</a>, <a href="http://www.u-tokyo.ac.jp/en/index.html" target="_blank">The University of Tokyo</a>. <br>
+          <a href="http://www.u-tokyo.ac.jp/" target="_blank">東京大学</a> <a href="http://www.i.u-tokyo.ac.jp/" target="_blank">大学院情報理工学系研究科</a> <a href="http://www.i.u-tokyo.ac.jp/edu/course/ipc/" target="_blank">システム情報学専攻</a> 修士課程
+        </dd>
+        <dt>Apr. 2012 - Mar. 2016</dt>
+        <dd>
+          Bachelor's student, <a href="http://www.keisu.t.u-tokyo.ac.jp/" target="_blank">Department of Mathematical Engineering and Information Physics</a>, <a href="http://www.t.u-tokyo.ac.jp/soee/index.html" target="_blank">School of Engineering</a>, <a href="http://www.u-tokyo.ac.jp/" target="_blank">The University of Tokyo</a>. <br>
+          <a href="http://www.u-tokyo.ac.jp/" target="_blank">東京大学</a> <a href="http://www.t.u-tokyo.ac.jp/" target="_blank">工学部</a> <a href="http://www.keisu.t.u-tokyo.ac.jp/" target="_blank">計数工学科</a> システム情報工学コース
+        </dd>
+      </dl>
 
 
+      <hr>
+
+      <footer>
+        <p>&copy; 2017 Yoshiki Mitsui</p>
+      </footer>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>
